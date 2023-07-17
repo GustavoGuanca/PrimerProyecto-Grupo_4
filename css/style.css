@@ -178,3 +178,34 @@ footer p{
     font-weight: 600;
     color: #007bff;
   }
+
+
+
+@media (max-width: 1400px) {
+  .small-input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 1400px) {
+  .small-input {
+    display: block;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+}
+.small-input-1{
+  width: 80px;
+}
+
+.logo-img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100px; 
+}
+
+.container-fluids {
+  margin-top: 30px;
+  background-color: rgb(40, 25, 25);
+}
