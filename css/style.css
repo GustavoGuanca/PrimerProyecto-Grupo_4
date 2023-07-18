@@ -209,3 +209,50 @@ footer p{
   margin-top: 30px;
   background-color: rgb(40, 25, 25);
 }
+
+.btn-no-border {
+  border: none;
+}
+
+.price {
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+ .price {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1400px) {
+
+  .price {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .card-text {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .card-text .btn {
+      margin-bottom: 10px;
+  }
+}
+
+.card-text .input-group.quantity {
+  display: flex;
+  align-items: center;
+}
+
+.card-text .input-group.quantity label {
+  margin-right: 10px;
+}
+
+.small-input-2 {
+  width: 100px;
+}
