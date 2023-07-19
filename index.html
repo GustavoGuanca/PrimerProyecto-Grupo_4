@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Mania</title>
-    <link rel="icon" href="./img/logo.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/logo.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
         <div class="container-fluid">
             <a class="navbar-brand"><img src="../img/logo.png" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -19,7 +19,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" href="../index.html">Home</a>
                     </li>
@@ -30,29 +30,32 @@
                         <a class="nav-link" href="./pages/musica.html">Música</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/peliculas.html">Peliculas</a>
+                        <a class="nav-link" href="./pages/peliculas.html">Películas</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                     </li>
                 </ul>
             </div>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-              <button class="btn btn-outline-light" type="submit">Buscar</button>
+            <form class="d-flex form-buscar" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-but">
+                <button class="btn btn-outline-light nav-but btn-buscar">Buscar</button>
+            </li>
+            </ul>
             </form>
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-but">
-                    <a class="btn btn-outline-light" href="./pages/signUp.html">SignUp</a>
+                    <a class="btn btn-outline-light" href="./signUp.html">SignUp</a>
                 </li>
                 <li class="nav-but">
-                    <a class="btn btn-outline-light" href="./pages/login.html">Login</a>
+                    <a class="btn btn-outline-light" href="./login.html">Login</a>
                 </li>
-            </ul> ""
+            </ul>
         </div>
     </nav>
 </header>
-    
       <div id="carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="3000">
