@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+#menu a, button{
+   font-size: 18px !important;
+   font-weight: 600;
+  
+}
+.navbar .navbar-nav .nav-item a{
+padding: 15px;
+}
+
+.navbar .navbar-nav .nav-but{
+padding: 5px;
+}
+
+.navbar-brand img {
+  max-width: 70px; 
+  height: auto;
+}
+
+
+#menu a{
+   color:#3f3f3f;
+   
+}
+body {
+  background-image: url(fondodepantallacontacto.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+.form-contact {
+width: 400px;  
+background-color: rgba(10, 10, 10, 0.938);
+padding: 30px;
+margin: auto;
+margin-top: 100px;
+border-radius: 4px;
+font-family: 'Montserrat', sans-serif;
+color: white;
+box-shadow: 7px 13px 37px black;
+}
+.form-contact h4 {
+  font-size: 22px;
+  margin-bottom: 21px;
+
+}
+.controls {
+  width: 100%;
+  background-color:rgba(10, 10, 10, 0.938) ;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1b2a4e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: white;
+}
+.consult {
+  width: 100%;
+  background-color:rgba(10, 10, 10, 0.938) ;
+  padding: 30px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border: 1px solid #1b2a4e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: white;
+  text-align: justify;
+  
+}
+
+.form-contact label {
+  height: 40 px;
+  text-align: center;
+  font-size: 14 px;
+  line-height: 40px;
+  
+}
+.form-login a {
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+}
+.form-contact a:hover {
+  color: white;
+  text-decoration: #1b2a4e;
+  text-align: center;
+}
+.form-contact .buttons {
+width: 100%;
+background: #1b2a4e;
+border: none;
+padding: 12px;
+color: white;
+margin: 16 px 0;
+font-size: 16 px;
+
+}
